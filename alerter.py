@@ -114,6 +114,7 @@ while True:
 	server.sendmail(user,tolist,msg.as_string())
 
 	before =  parsed["data"]["children"][0]["data"]["id"]
+	time.sleep(t_interval)
 
 
 
